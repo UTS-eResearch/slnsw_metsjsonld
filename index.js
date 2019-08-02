@@ -51,7 +51,6 @@ fs.readFile(fileLocation, function (err, data) {
           "name": "T Fisher Unwin",
           "address": "London"
         },
-
         {
           "@id": "author",
           "@type": "ContactPoint",
@@ -61,7 +60,7 @@ fs.readFile(fileLocation, function (err, data) {
         },
         {
           "@id": "slnsw",
-          "name": "Western Sydney University",
+          "name": "State Library NSW",
           "@type": "Organization"
         }
       ]
