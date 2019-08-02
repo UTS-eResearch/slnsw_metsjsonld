@@ -1,0 +1,102 @@
+{
+  "@context": "https://raw.githubusercontent.com/ResearchObject/ro-crate/master/docs/0.2-DRAFT/context.json",
+  "@graph": [
+    {
+      "@id": "https://dx.doi.org/10.4225/35/555d661071c76",
+      "name": "Pioneer Work in the Alps of New Zealand",
+      "description": "A record of the ",
+      "publisher": {
+        "@id": "slnsw"
+      },
+      "datePublished": "2019-08-02",
+      "contactPoint": {
+        "@id": "K.Trewin@westernsydney.edu.au"
+      },
+      "@type": [
+        "Dataset",
+        "Book"
+      ],
+      "path": "./",
+      "name": "Farms to Freeways Example Dataset",
+      "creator": [
+        {
+          "@id": "author"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "book"
+        }
+      ]
+    },
+    {
+      "@id": "unwin",
+      "name": "T Fisher Unwin",
+      "address": "London"
+    },
+    {
+      "@id": "book",
+      "name": "Pioneer Work in the Alps of New Zealand",
+      "@type": "book",
+      "hasPart": [
+        {
+          "@id": "preface"
+        },
+        {
+          "@id": "./100"
+        }
+      ]
+    },
+    {
+      "@id": "preface",
+      "name": "Preface",
+      "@type": "RepositoryObject",
+      "hasPart": [
+        {
+          "@id": "preface_screen"
+        },
+        {
+          "@id": "preface_alto"
+        }
+      ]
+    },
+    {
+      "@id": "preface_screen",
+      "name": "Preface Image",
+      "@type": "RepositoryObject",
+      "hasFile": {
+        "@id": "SCREEN/preface.jpg"
+      }
+    },
+    {
+      "@id": "preface_alto",
+      "name": "Preface XML",
+      "@type": "RepositoryObject",
+      "hasFile": {
+        "@id": "ALTO/preface.xml"
+      }
+    },
+    {
+      "@id": "SCREEN/preface.jpg",
+      "@type": "File",
+      "path": "SCREEN/preface.jpg"
+    },
+    {
+      "@id": "ALTO/preface.xml",
+      "@type": "File",
+      "path": "ALTO/preface.xml"
+    },
+    {
+      "@id": "author",
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "K.Trewin@westernsydney.edu.au",
+      "name": "Contact Katrina Trewin"
+    },
+    {
+      "@id": "slnsw",
+      "name": "Western Sydney University",
+      "@type": "Organization"
+    }
+  ]
+}
