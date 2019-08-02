@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sl_apis.iml" filepath="$PROJECT_DIR$/.idea/sl_apis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../slnsw_jsonld/.idea/slnsw_jsonld.iml" filepath="$PROJECT_DIR$/../slnsw_jsonld/.idea/slnsw_jsonld.iml" />
     </modules>
   </component>
 </project>

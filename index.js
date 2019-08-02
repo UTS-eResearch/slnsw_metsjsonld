@@ -94,6 +94,7 @@ fs.readFile(fileLocation, function (err, data) {
 
         jsonLD['@graph'].push(screenObj);
       }
+
       if (alto) {
         const fileId = "ALTO/" + alto;
         const altonObj = {

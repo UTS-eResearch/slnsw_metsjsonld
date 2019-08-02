@@ -162,7 +162,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../slnsw_jsonld/index.js" working-dir="$PROJECT_DIR$/../slnsw_jsonld">
       <method v="2" />
     </configuration>
     <recent_temporary>
