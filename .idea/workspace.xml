@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47a49c5-85ff-477c-9cf0-aaaaf5222a1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new.jsonld" beforeDir="false" afterPath="$PROJECT_DIR$/r-crate-metadata.jsonld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/ro-crate-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/ro-crate-metadata.jsonld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r-crate-metadata.jsonld" beforeDir="false" afterPath="$PROJECT_DIR$/ro-crate-metadata.jsonld" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564710299452</updated>
       <workItem from="1564710301408" duration="11949000" />
-      <workItem from="1568676279484" duration="882000" />
+      <workItem from="1568676279484" duration="1272000" />
     </task>
     <servers />
   </component>
@@ -83,17 +79,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/index.js</url>
-          <line>10</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
