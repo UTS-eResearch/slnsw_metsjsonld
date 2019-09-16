@@ -1,0 +1,49 @@
+{
+      "@context": "https://raw.githubusercontent.com/ResearchObject/ro-crate/master/docs/0.2-DRAFT/context.json",
+      "@graph": [
+        {
+          "@id": "https://dx.doi.org/10.4225/35/555d661071c76",
+          "name": "Pioneer Work in the Alps of New Zealand",
+          "description": "A record of the ",
+          "publisher": {
+            "@id": "slnsw"
+          },
+          "datePublished": "2019-08-02",
+          "contactPoint": {
+            "@id": "K.Trewin@westernsydney.edu.au"
+          },
+          "@type": [
+            "Dataset",
+            "Book"
+          ],
+          "path": "./",
+          "creator": [
+            {
+              "@id": "author"
+            }
+          ],
+          "hasPart": [
+            {
+              "@id": "book"
+            }
+          ]
+        },
+        {
+          "@id": "unwin",
+          "name": "T Fisher Unwin",
+          "address": "London"
+        },
+        {
+          "@id": "author",
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "K.Trewin@westernsydney.edu.au",
+          "name": "Contact Katrina Trewin"
+        },
+        {
+          "@id": "slnsw",
+          "name": "State Library NSW",
+          "@type": "Organization"
+        }
+      ]
+    }
