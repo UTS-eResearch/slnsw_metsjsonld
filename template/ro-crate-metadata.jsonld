@@ -1,49 +1,55 @@
 {
       "@context": "https://raw.githubusercontent.com/ResearchObject/ro-crate/master/docs/0.2-DRAFT/context.json",
       "@graph": [
-        {
-          "@id": "https://dx.doi.org/10.4225/35/555d661071c76",
-          "name": "Pioneer Work in the Alps of New Zealand",
-          "description": "A record of the ",
-          "publisher": {
-            "@id": "slnsw"
+         {
+          "@id": "ro-crate-metadata.jsonld",
+          "@type": "CreativeWork",
+          "about": {
+            "@id": "./"
           },
-          "datePublished": "2019-08-02",
+          "identifier": "ro-crate-metadata.jsonld"
+        },
+        {
+          "@id": "./",
+          "publisher": {
+            "@id": "https://ror.org/04evq8811"
+          },
           "contactPoint": {
-            "@id": "K.Trewin@westernsydney.edu.au"
+            "@id": "mailto:data-librarian@uts.edu.au"
           },
           "@type": [
-            "Dataset",
-            "Book"
+            "Dataset"
           ],
           "path": "./",
-          "creator": [
+          "author": [
             {
-              "@id": "author"
+              "@id": "https://ror.org/04evq8811"
             }
           ],
-          "hasPart": [
-            {
-              "@id": "book"
-            }
-          ]
+          "license": {
+            "@id": "https://creativecommons.org/licenses/by-nc-sa/3.0/au/"   
+          }
         },
         {
-          "@id": "unwin",
-          "name": "T Fisher Unwin",
-          "address": "London"
-        },
-        {
-          "@id": "author",
+          "@id": "mailto:data-librarian@uts.edu.au",
           "@type": "ContactPoint",
           "contactType": "customer service",
-          "email": "K.Trewin@westernsydney.edu.au",
-          "name": "Contact Katrina Trewin"
+          "email": "data-librarian@uts.edu.au",
+          "name": "Contact UTS Data Librarians"
         },
+        
         {
           "@id": "slnsw",
           "name": "State Library NSW",
           "@type": "Organization"
+        },
+        {
+          "@id": "https://creativecommons.org/licenses/by-nc-sa/3.0/au/",
+          "@type": "CreativeWork",
+          "description": "This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/au/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.",
+          "identifier": "https://creativecommons.org/licenses/by-nc-sa/3.0/au/",
+          "name": "Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)"
         }
       ]
     }
+      
